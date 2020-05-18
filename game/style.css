@@ -1,0 +1,156 @@
+/*База*/
+body{
+	background-image: url(background.png);
+	font-family: monospace;
+	font-size: 30px;
+}
+html {overflow: hidden}
+header{
+	background-color: green;
+	height: 200px;
+}
+h1{
+	text-align: center;
+	font-size: 310%
+}
+h2{
+	text-align: center;
+	font-size: 310%;
+}
+h3{
+ 	text-align: left;
+ 	text-align: center;
+}
+h4{
+	text-align: center;
+}
+p{
+	text-align: left;
+	font-size: 20px;
+}
+
+/*Остальной код*/
+
+#button{
+	width: 18%;
+	height: 34%;
+	background: white;
+	font-size: 70px;
+	outline: none;
+	position: absolute;
+	left: 40%;
+	bottom: 47%;
+	border-radius: 1000px;
+	font-size: 60px;
+}
+#shopText{
+	position: absolute;
+	bottom: 21%;
+	left: 37%;
+	color: white;
+}
+#infClick{
+	position: absolute;
+	bottom: 14.5%;
+	left: 61%;
+	width: 25%;
+	height: 13.5%;
+	font-size: 50px;
+	background-color: white;
+	outline: none;
+}
+#infPrice{
+	position: absolute;
+	bottom: 2%;
+	left: 65.2%;
+	font-size: 50px;
+	color: white;
+}
+
+/*Авто клик*/
+#autoClick{
+	position: absolute;
+	bottom: 14.5%;
+	left: 10%;
+	width: 25%;
+	height: 13.5%;
+	font-size: 50px;
+	background-color: white;
+	outline: none;
+}
+#autoPrice{
+	position: absolute;
+	bottom: 2%;
+	left: 14.2%;
+	font-size: 50px;
+	color: white;
+}
+#upgradeCandy{
+	position: absolute;
+	bottom: 14.5%;
+	left: 35.5%;
+	width: 25%;
+	height: 13.5%;
+	font-size: 50px;
+	background-color: white;
+	outline: none;
+}
+#candyPrice{
+	position: absolute;
+	bottom: 2%;
+	left: 41%;
+	font-size: 50px;
+	color: white;
+}
+
+
+
+/*Конфеты*/
+#candies{
+	background: white;
+	width: 250px;
+	height: 200px;
+	border: solid black;
+	border-width: 2px
+}
+#candyCount{
+	font-weight: bold;
+	font-size: 30px;
+}
+#trade{
+	font-weight: bold;
+	font-size: 18px
+}
+#tradePrice{
+	font-weight: bold
+}
+
+
+
+
+
+/*HP*/
+#health{
+	background: white;
+	width: 250px;
+	height: 200px;
+	border: solid black;
+	border-width: 2px;
+}
+#healthCount{
+	font-weight: bold;
+	font-size: 30px;
+}
+#healthPlus{
+	font-weight: bold;
+	font-size: 18px
+}
+#healthPrice{
+	font-weight: bold
+}
+#clear{
+	position: absolute;
+	left: 85%;
+	bottom: 93%;
+	font-size: 20px
+}

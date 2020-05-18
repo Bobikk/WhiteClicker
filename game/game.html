@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>White Clicker</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="load()">
+
+	<div>
+		<button id='button' onclick="onClick()">0</button>
+	</div>
+	<div>
+		<h2 id='shopText'>Магазин:</h2>
+		<button id='infClick' onclick="buyInf()">X2 Клик</button>
+		<h2 id='infPrice'>Цена:200</h2>
+
+		<button id='autoClick' onclick="buyAuto()">Авто Клик</button>
+		<h2 id='autoPrice'>Цена:800</h2>
+
+		<button id='upgradeCandy' onclick="upgradeCandy()">Новый сорт конфет</button>
+		<h2 id='candyPrice'>Цена:700</h2>
+	</div>
+
+	<div id='candies'>
+		<p id='candyCount'>Конфеты:0</p>
+		<button id='trade' onclick="trade()">Обменять конфеты на монеты</button>
+		<p id='tradePrice'>5 конфет = 4 монеты</p>
+	</div>
+	<div id='health'>
+		<p id='healthCount'>HP: 10</p>
+		<button id='healthPlus' onclick="healthUp()">Лечиться</button>
+		<p id='healthPrice'>29 конфет = 1HP</p>
+	</div>
+	<button id='clear' onclick="clearAll()">Очистить прогресс</button>
+
+</body>
+<script src='script.js'></script>
+</html>

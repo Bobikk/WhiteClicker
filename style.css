@@ -1,0 +1,70 @@
+/*База*/
+body {
+	background-color: black;
+	font-family: monospace;
+	font-size: 30px;
+	font-style: monospace;
+	text-align: center;
+}
+html{overflow-x:  hidden;}
+
+
+/*Текст*/
+h1{
+	color: white;
+	font-size: 80px;
+}
+h2{color: white}
+h3{
+	color: white;
+ 	text-align: left
+}
+h4{color: white}
+p{
+	color: white;
+	text-align: left;
+}
+a{
+	text-decoration: none;
+	text-align: center
+}
+
+/*Кнопка скачивания*/
+.Download{
+	outline: none;
+	display: inline-block;
+	color: black;
+	padding: 20px 30px;
+	margin: 10px 10px;
+	border-radius: 50px;
+	font-size: 60pt;
+	font-family: monospace;
+	text-transform: uppercase;
+	background-image: linear-gradient(to left, white 51%, white 51%, white 51%);
+	background-size: 200% auto;
+	box-shadow: 0 0 20px rgba(0,0,0,.1);
+	transition: .5s;
+}
+.youTubeLnk{
+	outline: none;
+	display: inline-block;
+	color: black;
+	padding: 20px 40px;
+	margin: 10px 10px;
+	border-radius: 10px;
+	font-family: monospace;
+	text-transform: uppercase;
+	font-size: 50px;
+	background-image: linear-gradient(to left, white 51%, white 51%, white 51%);
+	background-size: 100% auto;
+	box-shadow: 0 0 20px rgba(0,0,0,.1);
+	transition: .5s;
+}
+.youTube{
+	text-align: center;
+	font-size: 50px
+}
+#newProject{
+	text-decoration: underline;
+	color: yellow
+}
